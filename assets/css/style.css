@@ -115,7 +115,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0.20rem;
+    margin: 0 20rem;
    /* position: relative;*/
 }
 
@@ -163,4 +163,14 @@ body {
     box-shadow: 00.5rem 0.5rem 0.7rem rgba(var(--ash-grey), 0.3);
 }
 
-/* start of buttonstyles */
+/* start of buttons tyles */
+
+@media screen  and (max-width: 768px) {
+    .main {
+        margin: 0 1rem;
+    }
+    .content-section {
+        margin: 2rem 0.75rem;
+    }
+    
+}
