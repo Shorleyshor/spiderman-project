@@ -75,16 +75,13 @@ body {
 }
 /* end of header styles */
 
-.main {
-    flex: 2;
-}
 
 /* start of footer styles */
 
 .footer{
     background-color: var(--carnelian);
     font-size: 1.4rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
     text-align: center;
     color: var(--ash-grey);
     letter-spacing: 0.4rem;
@@ -112,3 +109,58 @@ body {
     background-color: var(--alizarin-crimson);
 }
 /* end of footer styles */
+
+.main {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.20rem;
+   /* position: relative;*/
+}
+
+/* content section styles */
+.content-section {
+    letter-spacing: 0.6rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--ash-grey);
+    box-shadow: 0rem 0rem 0.7rem 0.7rem rgb(var(--ash-grey-rgb), 0.3);
+    /*position: relative;*/
+}
+
+.content-section-title {
+    font-size: 4rem;
+}
+.content-section-info {
+    font-size: 2rem;
+}
+/* end of content section styles */
+
+
+/* start of buttonstyles */
+
+.btn-control {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.btn {
+    padding: 1.5rem 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.4rem;
+    min-width: 20rem;
+    text-transform: uppercase;
+    background-color: var(--carnelian);
+    color: var(--ash-grey);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--alizarin-crimson);
+    box-shadow: 00.5rem 0.5rem 0.7rem rgba(var(--ash-grey), 0.3);
+}
+
+/* start of buttonstyles */
